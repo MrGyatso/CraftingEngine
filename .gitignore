@@ -1,0 +1,32 @@
+# Ignore the bin directory with compiled classes
+bin/
+
+# Ignore IntelliJ files
+.idea/
+*.iml
+
+# Ignore VS Code files
+.vscode/
+
+# Ignore Eclipse files
+.settings/
+*.classpath
+*.project
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore build and target directories (Maven/Gradle)
+target/
+build/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore any environment or property files containing sensitive info
+*.env
+*.properties
