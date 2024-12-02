@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <!-- Basic building materials -->
+    <item id="planks" quantity="64"/>
+    <item id="stick" quantity="16"/>
+    <item id="cobblestone" quantity="64"/>
+    
+    <!-- Metals and valuable materials -->
+    <item id="iron_ingot" quantity="32"/>
+    <item id="diamond" quantity="8"/>
+    
+    <!-- Tools -->
+    <item id="wooden_pickaxe" quantity="1"/>
+    <item id="stone_pickaxe" quantity="1"/>
+    
+    <!-- Crafting -->
+    <item id="crafting_table" quantity="1"/>
+    
+    <!-- Additional resources -->
+    <item id="log" quantity="16"/>
+</inventory>

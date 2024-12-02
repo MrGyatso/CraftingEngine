@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <!-- Basic crafting recipes -->
+    <recipe id="planks" name="Wooden Planks">
+        <pattern>
+            <row>
+                <slot item="log" quantity="1"/>
+                <slot/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot/>
+                <slot/>
+            </row>
+        </pattern>
+        <result item="planks" quantity="4"/>
+    </recipe>
+    
+    <recipe id="stick" name="Sticks">
+        <pattern>
+            <row>
+                <slot item="planks" quantity="1"/>
+                <slot/>
+                <slot/>
+            </row>
+            <row>
+                <slot item="planks" quantity="1"/>
+                <slot/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot/>
+                <slot/>
+            </row>
+        </pattern>
+        <result item="stick" quantity="4"/>
+    </recipe>
+    
+    <!-- Tool recipes -->
+    <recipe id="wooden_pickaxe" name="Wooden Pickaxe">
+        <pattern>
+            <row>
+                <slot item="planks" quantity="1"/>
+                <slot item="planks" quantity="1"/>
+                <slot item="planks" quantity="1"/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+        </pattern>
+        <result item="wooden_pickaxe" quantity="1"/>
+    </recipe>
+    
+    <recipe id="stone_pickaxe" name="Stone Pickaxe">
+        <pattern>
+            <row>
+                <slot item="cobblestone" quantity="1"/>
+                <slot item="cobblestone" quantity="1"/>
+                <slot item="cobblestone" quantity="1"/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+        </pattern>
+        <result item="stone_pickaxe" quantity="1"/>
+    </recipe>
+    
+    <recipe id="iron_pickaxe" name="Iron Pickaxe">
+        <pattern>
+            <row>
+                <slot item="iron_ingot" quantity="1"/>
+                <slot item="iron_ingot" quantity="1"/>
+                <slot item="iron_ingot" quantity="1"/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+        </pattern>
+        <result item="iron_pickaxe" quantity="1"/>
+    </recipe>
+    
+    <recipe id="diamond_pickaxe" name="Diamond Pickaxe">
+        <pattern>
+            <row>
+                <slot item="diamond" quantity="1"/>
+                <slot item="diamond" quantity="1"/>
+                <slot item="diamond" quantity="1"/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot item="stick" quantity="1"/>
+                <slot/>
+            </row>
+        </pattern>
+        <result item="diamond_pickaxe" quantity="1"/>
+    </recipe>
+    
+    <!-- Workstation recipes -->
+    <recipe id="crafting_table" name="Crafting Table">
+        <pattern>
+            <row>
+                <slot item="planks" quantity="1"/>
+                <slot item="planks" quantity="1"/>
+                <slot/>
+            </row>
+            <row>
+                <slot item="planks" quantity="1"/>
+                <slot item="planks" quantity="1"/>
+                <slot/>
+            </row>
+            <row>
+                <slot/>
+                <slot/>
+                <slot/>
+            </row>
+        </pattern>
+        <result item="crafting_table" quantity="1"/>
+    </recipe>
+</recipes>
